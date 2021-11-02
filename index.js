@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Logged In")
-	bot.chat("hello");
+	bot.chat("Hello");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Subscribe To Easy Gamer : https://www.youtube.com/channel/UCk575VDlrCsv1Gy2XZQ1bSA")
+	bot.chat("/register botafk123456")
 	first = false;
 	}
 	else{
-		bot.chat("Subscribe To MannuG : https://www.youtube.com/channel/UCSZHRnBue50ImBKeR6k6eDg")
+		bot.chat("/register botafk123456")
 		first = true;
 	}
   }, 3600000 * i); 
