@@ -35,7 +35,7 @@ bot.on('login',function(){
 bot.on('time', function(time) {
 	if(nightskip == "true"){
 	if(bot.time.timeOfDay >= 13000){
-	bot.chat('/time set day')
+	bot.chat('/register afkbot123456 afkbot123456')
 	}}
     if (connected <1) {
         return;
