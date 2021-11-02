@@ -46,11 +46,11 @@ function task(i) {
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("/register botafk123456")
+	bot.chat("ngu")
 	first = false;
 	}
 	else{
-		bot.chat("/register botafk123456")
+		bot.chat("ngu")
 		first = true;
 	}
   }, 3600000 * i); 
