@@ -29,13 +29,13 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("hello");
+	bot.chat("/login botafk1127mvp");
 });
 
 bot.on('time', function(time) {
 	if(nightskip == "true"){
 	if(bot.time.timeOfDay >= 13000){
-	bot.chat('/login afkbot123456')
+	bot.chat('/login afkbot1127mvp')
 	}}
     if (connected <1) {
         return;
